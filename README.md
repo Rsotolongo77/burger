@@ -16,4 +16,4 @@
 ### If the user instead chooses to create a custom burger; the request is passed to the API to create a burger in the db and the returning result renders the new burger to the HTML page in the column "ready to eat", with an associated devour button. 
 
 
-![ ](images/burger_background.jpg)
+![ ](public/assets/images/burger_background.jpg)
