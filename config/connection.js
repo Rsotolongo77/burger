@@ -1,3 +1,4 @@
+//estabish access to mysql db via client side port, then export connection for dependencies
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({

@@ -1,7 +1,8 @@
+//establish router and access to burger.js logic
 var express = require("express");
 var router = express.Router();
 var burger = require("../models/burger.js");
-
+//create routes to manipulate data in conjunction with burger.js logic (render all, create, update value, delete).
 router.get("/", function (req, res) {
     burger.selectAll(function (data) {
         var hbsObject = {

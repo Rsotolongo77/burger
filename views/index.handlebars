@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-4" id="readyBurgers">
             <h1><b>BURGERS CONSUMED</b></h1>
-
+            <!--loop to run through db and render consumed burgers with ID-->
             {{#each burgers}}
             {{#if this.devoured}}
             <li id="list">
@@ -18,7 +18,7 @@
         <div class="col-4" id="consumedBurgers">
             <h1><b>WARM READY BURGERS</b></h1>
 
-
+            <!--loop to render burgers inserted into db that have value opposite on consumed in db-->
             <ul>
                 {{#each burgers}}
                 {{#unless this.devoured}}
@@ -39,7 +39,7 @@
 
         </div>
 
-
+        <!--Post's submited burger to db to later be rendered in PUT method noted above-->
         <div class="col-4">
             <form class="create-update-form" action="/" method="POST">
                 <div class="form-group">
