@@ -1,0 +1,60 @@
+body {
+        background-image: url(https://images.unsplash.com/photo-1541012642710-717f681198c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Cookie', cursive;
+        font-size: 30px;
+    }
+
+h1 {
+        font-family: 'Courgette', cursive;
+        text-shadow: 2px 2px white;
+    }
+
+button {
+        border-radius: 5px;
+        font-size: 25px;
+    }
+
+.btn-primary1 {
+        background-color: rgb(22, 171, 230);
+        width: 80%;
+    }
+
+.btn-primary2 {
+        background-color: rgb(22, 171, 230);
+    }
+
+form {
+        align-content: center;
+        text-align: center;
+        margin-top: 4%;
+    }
+
+#readyBurgers {
+        margin-top: 1%;
+    }
+
+#consumedBurgers {
+        margin-top: 1%;
+    }
+
+ul {
+        text-align: center;
+        background: rgba(216, 214, 214, 0.6);
+        border-radius: 5px;
+        width: 60%;
+    }
+
+li {
+        width: 80%
+    }
+
+#list {
+        background: rgba(216, 214, 214, 0.6);
+        border-radius: 5px;
+        margin-left: 1%;
+    }
+
