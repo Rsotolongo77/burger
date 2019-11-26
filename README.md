@@ -18,4 +18,4 @@
 
 ![ ](public/assets/images/Screen_shot.png)
 
-### Visit wite at https://damp-cove-74433.herokuapp.com/
+### Visit site at https://damp-cove-74433.herokuapp.com/
