@@ -1,6 +1,5 @@
 //establish required files/middleware/modules/PORT
 var express = require("express");
-var methodOverride = require("method-override");
 var PORT = process.env.PORT || 8080;
 var app = express();
 var exphbs = require("express-handlebars");
@@ -11,7 +10,6 @@ var routes = require("./controllers/burgers_controller.js");
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(methodOverride("_method"));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 app.use(routes);
