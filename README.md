@@ -10,6 +10,8 @@
 5. JavaScript
 6. Custom ORM
 7. Method-override
+8. Bootstrap
+9. CSS
 
 ## How the app works: 
 ### The user is rendered an HTML page with two distint columns. One for burgers that have been "devoured", and another for burgers that are ready to "eat". A search form linked with a submission button to "create" a burger of choice is also provided to the right of those columns. The user can choose to devour one of the already existing burgers via a button that will trigger a request to the API holding the burger data. Ensuing JAvaScript logic and routing updates the appropriate areas of the page accordingly.
@@ -18,4 +20,4 @@
 
 ![ ](public/assets/images/Screen_shot.png)
 
-### Visit wite at https://damp-cove-74433.herokuapp.com/
+### Visit site at https://damp-cove-74433.herokuapp.com/
